@@ -12,6 +12,7 @@ import Alamofire
 
 class WeatherVC: UIViewController, UITableViewDelegate, UITableViewDataSource, CLLocationManagerDelegate {
 
+    // Declaring IBOutlets
     @IBOutlet weak var currentDateLbl: UILabel!
     @IBOutlet weak var currentTempLbl: UILabel!
     @IBOutlet weak var LocationLbl: UILabel!
